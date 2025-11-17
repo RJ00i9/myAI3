@@ -28,7 +28,7 @@ export async function readDocument(
             inputs: {
                 text: hypothetical_document,
             },
-            topK: 25,
+            topK: 40,
             filter: filter,
         },
         fields: ['text', 'pre_context', 'post_context', 'source_url', 'source_description', 'source_type', 'class_no', 'order'],
