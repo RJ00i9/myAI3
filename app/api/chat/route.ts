@@ -1,6 +1,7 @@
 
 import { streamText, UIMessage, convertToModelMessages, stepCountIs } from 'ai';
-import { MODEL, SYSTEM_PROMPT } from '@/config';
+import { MODEL } from '@/config';
+import { SYSTEM_PROMPT } from '@/prompts';
 import { webSearch } from './tools/web-search';
 import { readNotebookLecture } from './tools/read-notebook-lecture';
 import { readSlideLecture } from './tools/read-slide-lecture';
